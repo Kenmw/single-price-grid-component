@@ -1,0 +1,148 @@
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  color: hsl(218, 22%, 67%);
+  font-family: 'karla';
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+button{
+    color: #fff;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  font-family: 'karla';
+  width:231px;
+  height:45px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+h3 {
+  color: hsl(71, 73%, 54%);
+  margin:25px 0 0;
+}
+h4{
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(204, 43%, 93%);
+  margin: 10px 0 0;
+}
+strong{
+  color: #fff;
+  font-size: 32px;
+}
+ul{
+  margin: 31px 0;
+}
+li{
+  display: flex;
+  margin: 3px 0;
+  line-height: 1;
+}
+.top-card {
+  background-color: #fff;
+  position: relative;
+  transform: translateY(50%);
+  width: 570px;
+  height: 220px;
+  padding: 20px 45px 0;
+  border-radius: 14px 14px 0 0;
+  line-height: 1.5;
+}
+
+.left-card {
+  background-color: hsl(179, 62%, 43%);
+  color: #fff;
+  width: 50%;
+  height: 220px;
+  padding: 20px 45px 0;
+  border-radius: 0 0 0 14px;
+  line-height: 1.5;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.left-card h2 {
+  color: #fff;
+}
+
+.right-card {
+  background-color: hsl(179, 56%, 49%);
+  color: #fff;
+  width: 50%;
+  height: 220px;
+  padding: 20px 0px 0;
+  border-radius: 0 0 14px 0;
+  line-height: 1.5;
+  position: absolute;
+  top: 100%;
+  right: 0;
+
+}
+.right-card h2{
+  color: #fff;
+  padding: 0 40px;
+}
+
+.attribution {
+  font-size: 11px;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width:800px)
+{
+  body{
+    font-size: 13px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-size: 16px
+  }
+  ul{
+    margin: 22px 0;
+    padding-left: 0;
+  }
+  li{
+    margin: 9px 0;
+  }
+.top-card{
+  width:250px;
+  height:220px;
+  margin: auto;
+  transform: translateY(18%);
+
+
+}
+.left-card{
+  border-radius: 0;
+  height: 220px;
+  width: 250px;
+}
+.right-card{
+  border-radius: 0 0 14px 14px;
+  padding: 20px 45px 0;
+  height: 220px;
+  width: 250px;
+  top:200%;
+}
+.right-card h2{
+  padding: 0;
+}
+
+}
